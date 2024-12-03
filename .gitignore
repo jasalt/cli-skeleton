@@ -8,7 +8,6 @@ vendor/
 
 !PhelGenerated/.gitkeep
 *.cache
-composer.lock
 .phel-repl-history
 gacela*.php
 phel-config-local.php
