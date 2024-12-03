@@ -1,0 +1,4 @@
+(ns cli-skeleton\modules\defstruct-referring-module
+  (:require cli-skeleton\modules\defstruct-module :refer [my-struct]))
+
+(println "required defstruct-module in defstruct-referring-module")

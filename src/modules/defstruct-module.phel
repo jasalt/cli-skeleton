@@ -1,0 +1,4 @@
+(ns cli-skeleton\modules\defstruct-module)
+
+(println "calling defstruct in defstruct-module")
+(defstruct my-struct [user password email])

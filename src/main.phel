@@ -1,5 +1,10 @@
 (ns cli-skeleton\main
-  (:require cli-skeleton\modules\adder-module :refer [adder]))
+  (:require cli-skeleton\modules\adder-module :refer [adder])
+  (:require cli-skeleton\modules\defstruct-module)
+  (:require cli-skeleton\modules\defstruct-referring-module)
+  )
+
+(println "running main")
 
 (when-not *build-mode*
   (println (adder 1 2 3)))
